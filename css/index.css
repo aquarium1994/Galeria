@@ -122,16 +122,18 @@ p{
 
 .imagen{
 	outline: 3px solid rebeccapurple;
-	width: 120px;
-	height: 120px;
-	max-width: 120px;
-	max-height: 120px;
+	width: 118px;
+	height: 118px;
+	max-width: 118px;
+	max-height: 118px;
+	margin-right: 3px;
+	margin-bottom: 3px;
 }
 
 .cover{
 	object-fit: cover;
-	width: 120px;
-	height: 120px;
+	width: 118px;
+	height: 118px;
 	position: absolute;
 	z-index: 1;
 }
