@@ -120,10 +120,12 @@ p{
 	overflow: hidden;
 }
 
-/*.imagen{
-	width: 25%;
-
-}*/
+.imagen{
+	outline: 5px solid rebeccapurple;
+	width: 95px;
+	height: 95px;
+	max-width: 95px;
+	max-height: 95px;
 }
 
 @media only screen and (max-width: 220px) {
