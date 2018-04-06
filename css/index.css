@@ -1,0 +1,122 @@
+
+body{
+background: #002233;
+}
+/* PARA LA TABLA */
+table{
+	width: 100%;
+}
+
+
+.contenedor{
+	width: 90%;
+	background: #004466;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.imagen{
+	outline: 5px solid rebeccapurple;
+	width: 290px;
+	height: 290px;
+max-width: 290px;
+max-height: 290px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	position: relative;
+	z-index: 0;
+
+}
+
+.cover{
+	object-fit: cover;
+	width: 290px;
+	height: 290px;
+	position: absolute;
+	z-index: 1;
+}
+
+
+.imagen:hover{
+		outline: 5px solid gold;
+		cursor: pointer;
+}
+
+/*PARA LA INFOR DEL DIV*/
+
+.info{
+	width: 290px;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+}
+.info .name{
+	float: left;
+	font-size: 20px;
+	}
+.info .cod{
+	float: right;
+	font-size: 20px;
+	}
+p{
+	color: white;
+	font-size: 18px;
+	font-style: both;
+}
+
+
+ /*DIV TOP*/ 
+ .div-tb{
+ 	width: 90%;
+ 	margin: 15px auto;
+ }
+ .btn{
+ 	text-decoration: none;
+ 	color: white;
+ 	border:2px solid white;
+ 	padding: 10px 20px;
+ 	border-radius: 20px;
+ }
+
+ /*DIV BOTTOM*/
+ .before{
+ 	float: left;
+ }
+ .after{
+ 	float: right;
+ }
+
+ @media only screen and (max-width: 1020px) {
+	.contenedor {
+		width: 100%;
+		align-items: center;
+	}
+	table{
+		width:100%;
+	}
+	table img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+    .contenedor {
+		width: 100%;
+		align-items: center;
+	}
+	table{
+		width:100%;
+	}
+	table img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 220px) {
+    .contenedor {
+	width: 600px;
+	}
+}
