@@ -103,16 +103,27 @@ p{
 }
 
 @media only screen and (max-width: 360px) {
-    .contenedor {
+ /*   .contenedor {
 		width: 100%;
 		align-items: center;
-	}
+	}*/
 	table{
 		width:100%;
 	}
 	table img{
 		width: 100%;
 	}
+	.contenedor{
+	width: 900px;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*.imagen{
+	width: 25%;
+
+}*/
 }
 
 @media only screen and (max-width: 220px) {
