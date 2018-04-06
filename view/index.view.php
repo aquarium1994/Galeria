@@ -13,7 +13,7 @@
     <table>
         <tr>
             <td>
-                <img src="imagenes/grande-kurumi.jpg" alt="kurumi">
+                <img src="../imagenes/grande-kurumi.jpg" alt="kurumi">
             </td>
         </tr>
     </table>
