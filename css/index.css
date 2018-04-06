@@ -108,13 +108,13 @@ p{
 		align-items: center;
 	}*/
 	table{
-		width:500px;
+		width:380px;
 	}
 	table img{
 		width: 100%;
 	}
 	.contenedor{
-	width: 500px;
+	width: 380px;
 	background: white;
 	margin: 0 auto;
 	overflow: hidden;
