@@ -1,147 +1,63 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-background: #002233;
+    background: rgb(9, 23, 49);
 }
-/* PARA LA TABLA */
-table{
-	width: 100%;
+.hed{
+background: rgba(34, 2, 34, 0.808);
+position: fixed;
+z-index: 5;
 }
-
-
-.contenedor{
-	width: 90%;
-	background: #004466;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-.imagen{
-	outline: 5px solid rebeccapurple;
-	width: 290px;
-	height: 290px;
-max-width: 290px;
-max-height: 290px;
-	display: inline-block;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	position: relative;
-	z-index: 0;
-
+.tipo1{
+   background: rgb(9, 23, 49);
 }
 
 .cover{
-	object-fit: cover;
-	width: 290px;
-	height: 290px;
-	position: absolute;
-	z-index: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
-
-
-.imagen:hover{
-		outline: 5px solid gold;
-		cursor: pointer;
-}
-
-/*PARA LA INFOR DEL DIV*/
 
 .info{
-	width: 290px;
-	background: rgba(0,0,0,0.8);
-	position: absolute;
-	bottom: 0;
-	z-index: 2;
+    position: absolute;
+    background: rgba(6, 2, 10, 0.747);
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    z-index: 2;
 }
-.info .name{
-	float: left;
-	font-size: 20px;
-	}
-.info .cod{
-	float: right;
-	font-size: 20px;
-	}
-p{
-	color: white;
-	font-size: 18px;
-	font-style: both;
+.name{
+    color: white;
+    font-size: 19px;
+}
+.cod{
+    color: white;
+    font-size: 19px;
+    font-style: bold;
+    vertical-align: center;
 }
 
-
- /*DIV TOP*/ 
- .div-tb{
- 	width: 90%;
- 	margin: 15px auto;
- }
- .btn{
- 	text-decoration: none;
- 	color: white;
- 	border:2px solid white;
- 	padding: 10px 20px;
- 	border-radius: 20px;
- }
-
- /*DIV BOTTOM*/
- .before{
- 	float: left;
- }
- .after{
- 	float: right;
- }
-
- @media only screen and (max-width: 1020px) {
-	.contenedor {
-		width: 100%;
-		align-items: center;
-	}
-	table{
-		width:100%;
-	}
-	table img{
-		width: 100%;
-	}
+.tet{
+    margin: 0 5px;
 }
 
-@media only screen and (max-width: 380px) {
- /*   .contenedor {
-		width: 100%;
-		align-items: center;
-	}*/
-	table{
-		width:380px;
-	}
-	table img{
-		width: 100%;
-	}
-	.contenedor{
-	width: 380px;
-	background: white;
-	margin: 0 auto;
-	overflow: hidden;
+
+.no-padding{
+    padding-left:0;
+    padding-right:0;
 }
 
-.imagen{
-	outline: 3px solid rebeccapurple;
-	width: 118px;
-	height: 118px;
-	max-width: 118px;
-	max-height: 118px;
-	margin-right: 3px;
-	margin-bottom: 3px;
+.no-margin{
+margin-left: 0;
+margin-right: 0;
 }
 
-.cover{
-	object-fit: cover;
-	width: 118px;
-	height: 118px;
-	position: absolute;
-	z-index: 1;
+.sub-img div:not(.info){
+    border: 5px solid rebeccapurple;
 }
 
-}
-
-@media only screen and (max-width: 220px) {
-    .contenedor {
-	width: 600px;
-	}
+.sub-img div:hover:not(.info){
+    border: 5px solid black;
 }
